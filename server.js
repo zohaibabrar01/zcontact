@@ -58,5 +58,6 @@ app.get('/api/users', async (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 10000;  // Use environment variable or fallback to port 10000 for local dev
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
